@@ -1,0 +1,29 @@
+{
+  "UserMongoSettings": {
+    "CollectionName": "Users",
+    "ConnectionString": "<mongo db connection string>",
+    "DatabaseName": "VueltaAlMundoDB"
+  },
+
+  "RecordMongoSettings": {
+    "CollectionName": "Records",
+    "ConnectionString": "<mongo db connection string>",
+    "DatabaseName": "VueltaAlMundoDB"
+  },
+
+  "JWT": {
+    "SecretKey": "OLAh6Yh5KwNFvOqgltw7",
+    "Issuer": "issuer",
+    "Audience": "audience"
+  },
+
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information"
+    }
+  },
+
+  "AllowedHosts": "*"
+}
